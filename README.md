@@ -1,2 +1,1 @@
-# proptimize-landing-page
-The landing page for Proptimize
+# 2023.hackthehill.com
