@@ -38,7 +38,7 @@ img {
 }
 
 .Sponsors {
-  color: black;
+  color: #050a30;
   transition: 0.5s;
   margin-bottom: 20%;
   margin-bottom: 10vw;
@@ -60,7 +60,7 @@ img {
 }
 
 .text {
-  border-left: 5px solid black;
+  border-left: 5px solid #050a30;
   padding-left: 2.25%;
   width: 80%;
   font-family: Rubik;

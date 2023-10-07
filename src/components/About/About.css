@@ -9,8 +9,8 @@
 }
 
 .About {
-  color: black;
-  margin-top: -10%;
+  color: #ffffff;
+  margin-top: 0%;
   transition: 0.5s;
   margin-bottom: 10vw;
 }
@@ -34,7 +34,7 @@
 }
 
 .about-body p{
-  border-left: 5px solid black;
+  border-left: 5px solid #eeba2b;
   padding-left: 5%;
   width: 100%;
   font-family: Rubik;
@@ -50,7 +50,7 @@
 .mascot1 img{
   width: 60%;
   display: block;
-    filter: drop-shadow(-2px -4px 22px #ABEFFB);
+    filter: drop-shadow(-2px -4px 22px #eeba2b);
     /* Similar syntax to box-shadow */
 }
 

@@ -16,14 +16,11 @@ function Footer() {
         </div>
         <div class="FooterContainer">
           <div className="MediaLinks">
-            <a href="https://www.facebook.com/canadascapitalhackathon" target="_blank">
+            <a href="https://www.facebook.com/PropTPlatforms" target="_blank">
               <box-icon color='#3B4779' animation='tada-hover' type="logo" name="facebook-square"/>
             </a>
-            <a href="https://twitter.com/hackthehiII" target="_blank">
+            <a href="https://twitter.com/proptimize" target="_blank">
               <box-icon color='#3B4779' animation='tada-hover' name="twitter" type="logo" />
-            </a>
-            <a href="https://www.instagram.com/hackthehill/" target="_blank">
-              <box-icon color='#3B4779' animation='tada-hover' name="instagram" type="logo" />
             </a>
             <a href="https://www.linkedin.com/company/proptimize-inc/" target="_blank">
               <box-icon color='#3B4779' animation='tada-hover' name='linkedin' type='logo' ></box-icon>

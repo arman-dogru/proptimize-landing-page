@@ -18,12 +18,12 @@ function App() {
         <div class="Gradient">
           <NavBar />
           <Hero />
+          <About />
+          <SponsorShowcase />
+          <Schedule />
+          <Collaborators />
+          <FAQ />
         </div>
-        <About />
-        <SponsorShowcase />
-        <Schedule />
-        <Collaborators />
-        <FAQ />
         <hr></hr>
         <Footer />
       </div>
