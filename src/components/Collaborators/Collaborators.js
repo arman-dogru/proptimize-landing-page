@@ -1,18 +1,18 @@
-import './Collaborators.css';
-import { Grid, useMediaQuery, useTheme } from "@mui/material";
-import mountain from '../../assets/Logos/mountain_flags.svg'
+import { Button } from '@react-email/button';
+import { Html } from '@react-email/html';
+import * as React from 'react';
 
-function Collaborators() {
-  const theme = useTheme();
-  const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
-  const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
-  const matchesLG = useMediaQuery(theme.breakpoints.down("lg"));
+export default function Email() {
   return (
-    <div id="Collaborators" className="Collaborators">
-       <h1> </h1>
-    </div>
-
+    <Html>
+      <Button
+        pX={20}
+        pY={12}
+        href="https://example.com"
+        style={{ background: '#000', color: '#fff' }}
+      >
+        Click me
+      </Button>
+    </Html>
   );
 }
-
-export default Collaborators;

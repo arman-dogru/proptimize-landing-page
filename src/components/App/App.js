@@ -21,8 +21,9 @@ function App() {
           <About />
           <SponsorShowcase />
           <Schedule />
-          <Collaborators />
           <FAQ />
+          <Collaborators />
+          
         </div>
         <hr></hr>
         <Footer />
