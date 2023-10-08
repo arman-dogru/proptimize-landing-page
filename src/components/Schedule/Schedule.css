@@ -1,3 +1,9 @@
+.tierStack {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
 .Pricing {
     background-color: #3b477a;
     padding: 40px 0;

@@ -1,6 +1,6 @@
 import './Footer.css';
 import React from "react";
-import FooterLogo from "../../assets/Logos/hthlogo_banner_ver.svg";
+import FooterLogo from "../../assets/Logos/proptimize-large.png";
 import 'boxicons';
 import MLH_code_of_conduct from "../../assets/Documents/mlh-code-of-conduct.pdf";
 

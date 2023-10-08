@@ -1,35 +1,115 @@
-import React from "react";
-import "./SponsorShowcase.css";
-import { Button, useMediaQuery, useTheme, darken, Grid } from '@mui/material';
+import styles from "./SponsorShowcase.css";
+import { useState } from "react";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Typography,
+} from "@mui/material";
+import "boxicons";
 
-function SponsorShowcase() {
+export default function SponsorShowcase() {
+  const [expandedList, setExpandedList] = useState([]);
 
-  const theme = useTheme();
-  const matchesSM = useMediaQuery(theme.breakpoints.down("sm"))
-  const matchesMD = useMediaQuery(theme.breakpoints.down("md"))
-  const matchesLG = useMediaQuery(theme.breakpoints.down("lg"));
+  const quesAns = [
+    {
+      q: "Property Listings & Insights",
+      a: "• User-friendly interface for property listings. \n • AI-powered price predictions and property grading. \n • Comprehensive property pages with essential details.",
+      key: "0",
+    },
+    {
+      q: "Advanced Search & Market Insights",
+      a: "• Robust search functionality.\n • AI-driven market reports and trends. \n• Insights from historical and current property listings.",
+      key: "1",
+    },
+    {
+      q: "Client Relationship Management (CRM)",
+      a: "• Contact, lead, and deal management tools. \n • Task & calendar integrations.\n• Communication tools and client portals.",
+      key: "2",
+    },
+    {
+      q: "Marketing & Automation",
+      a: "• Analytics & reporting dashboards.\n • Notifications, automated responses, and event calendars.\n• Marketing automation with email campaigns and templates.",
+      key: "3",
+    },
+    {
+      q: "Collaboration & Networking",
+      a: "• Networking portal with forums, blogs, and group discussions.\n • Resource library and market insights dashboard.\n• Collaborative tools for agents and prop-tech entities.",
+      key: "4",
+    },
+    {
+      q: "AI-Powered Assistance",
+      a: "• AI-assisted listing tool for realtors.\n • Marketing analytics and property value improvement tools.",
+      key: "5",
+    },
+    {
+      q: "Investor-specific Tools",
+      a: "• Property access tools and demographic data.\n • Local agent connections and financial information.\n• Market reports and special deals for multi-property investors.",
+      key: "6",
+    }
 
-    return (
-      <div className="Sponsors">
-        <h1>Features</h1>
-        <div className="out">
-          <div class="sponsors-body">
-            <p class="text">
-            Hack the Hill is made possible by our generous sponsors.
-            Interested in supporting the capital’s hackathon?
-            <ul>
-              <li>
-                item 1
-              </li>
-              <li>
-                item 2
-              </li>
-            </ul>
-            </p>            
-          </div>
-        </div>
-      </div>
-    );
-  }
+    
+  ];
 
-export default SponsorShowcase;
+  const handleKeyList = (event, e) => {
+    if (expandedList.includes(e.key)) {
+      setExpandedList((prev) => prev.filter((keys) => keys !== e.key));
+    } else {
+      setExpandedList((arr) => [...arr, `${e.key}`]);
+    }
+  };
+
+  return (
+    <div className={styles.featuresContainer}>
+    <div id="FAQ" className={styles.featuresHeader}>Features</div>
+    {quesAns.map((i) => (
+      <Accordion
+        className={styles.questionContainer}
+        sx={{
+          backgroundColor: expandedList.includes(i.key) ? "transparent" : "transparent",
+          justifyContent: "left",
+          mb: "10px",
+          mt: "10px",
+          boxShadow: "none",
+          borderRadius: "10px",
+          padding: "0 2%",  /* This adds the padding on left and right */
+          "&:hover": {
+            backgroundColor: "#eaeaea",
+          },
+          "&:before": {
+            display: "none",
+          },
+        }}
+      >
+          <AccordionSummary
+            expandIcon={<box-icon name="chevron-down"></box-icon>}
+            className={styles.question}
+            onClick={(event) => handleKeyList(event, i)}
+            sx={{
+              color: "#3B4779",
+            }}
+          >
+            {i.q}
+          </AccordionSummary>
+          <AccordionDetails
+            className={styles.answer}
+            sx={{
+              color: "#5C71AD",
+              backgroundColor: "#eaeaea",
+              pt: 0,
+            }}
+          >
+            <Typography align={"left"}>
+            {i.a.split('\n').map((str, index, array) => 
+              index === array.length - 1 ? str : <>
+                {str}
+                <br />
+              </>
+            )}
+          </Typography>
+          </AccordionDetails>
+        </Accordion>
+      ))}
+    </div>
+  );
+}

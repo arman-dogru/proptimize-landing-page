@@ -9,39 +9,29 @@ function Schedule() {
 
   return (
     <div id="Pricing" className="Pricing">
-      <h1 className="pricingTitle">Choose Your Plan</h1>
+      <h1 className="pricingTitle">Founders</h1>
       <Box sx={{
         width: matchesMD ? '90%' : "80%",
         margin: 'auto',
         mt: matchesSM ? '5%' : 'auto'
       }}>
         <Stack direction={{ xs: "column", md: "row" }} spacing={5} id="tierStack">
-          {/* Basic Tier */}
           <Card className="tierCard">
-            <div className="tierHeader">Retail</div>
-            <div className="tierPrice">$40/mo</div>
+            <div className="tierHeader">Arman Doğru</div>
+            <div className="tierPrice">Co-Founder, CTO</div>
             <div className="tierDescription">Ideal for Retail users.</div>
           </Card>
 
-          {/* Pro Tier */}
           <Card className="tierCard">
-            <div className="tierHeader">Builders/Multi-Property Investors</div>
-            <div className="tierPrice">$50/mo</div>
-            <div className="tierDescription">Perfect for Multi-Property Investors.</div>
+            <div className="tierHeader">Kanwar Pal Singh</div>
+            <div className="tierPrice">Co-Founder, CEO</div>
+            <div className="tierDescription">Perfect for Hot Latino Moms.</div>
           </Card>
 
-          {/* Premium Tier */}
           <Card className="tierCard">
-            <div className="tierHeader">Agents</div>
-            <div className="tierPrice">$60/mo</div>
+            <div className="tierHeader">Can Say</div>
+            <div className="tierPrice">Co-Founder, COO</div>
             <div className="tierDescription">Best for Agents.</div>
-          </Card>
-
-          {/* Customisable Tier */}
-          <Card className="tierCard">
-            <div className="tierHeader">Custom</div>
-            <div className="tierPrice">$???/mo</div>
-            <div className="tierDescription">Best for large enterprises.</div>
           </Card>
         </Stack>
       </Box>

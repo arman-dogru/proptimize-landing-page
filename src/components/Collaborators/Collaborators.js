@@ -9,10 +9,7 @@ function Collaborators() {
   const matchesLG = useMediaQuery(theme.breakpoints.down("lg"));
   return (
     <div id="Collaborators" className="Collaborators">
-       <h1>Collaborators </h1>
-        <Grid container id="Associations" className="Associations">
-          <img className="mountain" alt="mountain" src={mountain}></img>
-          </Grid>
+       <h1> </h1>
     </div>
 
   );
