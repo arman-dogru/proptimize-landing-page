@@ -1,5 +1,4 @@
 import './Hero.css';
-import { ReactComponent as HeroImg } from '../../assets/svgs/hth_hero_withoutbg.svg';
 import BannerLogo from '../../assets/Logos/proptimize-large.png';
 
 function Hero() {

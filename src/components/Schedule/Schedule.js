@@ -9,32 +9,21 @@ function Schedule() {
 
   return (
     <div id="Pricing" className="Pricing">
-      <h1 className="pricingTitle">Founders</h1>
-      <Box sx={{
-        width: matchesMD ? '90%' : "80%",
-        margin: 'auto',
-        mt: matchesSM ? '5%' : 'auto'
-      }}>
-        <Stack direction={{ xs: "column", md: "row" }} spacing={5} id="tierStack">
-          <Card className="tierCard">
-            <div className="tierHeader">Arman Doğru</div>
-            <div className="tierPrice">Co-Founder, CTO</div>
-            <div className="tierDescription">Ideal for Retail users.</div>
-          </Card>
-
-          <Card className="tierCard">
-            <div className="tierHeader">Kanwar Pal Singh</div>
-            <div className="tierPrice">Co-Founder, CEO</div>
-            <div className="tierDescription">Perfect for Hot Latino Moms.</div>
-          </Card>
-
-          <Card className="tierCard">
-            <div className="tierHeader">Can Say</div>
-            <div className="tierPrice">Co-Founder, COO</div>
-            <div className="tierDescription">Best for Agents.</div>
-          </Card>
-        </Stack>
-      </Box>
+      <div id="pricingTitle" className="pricingTitle">FOUNDERS</div>
+      <Stack>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src="img_avatar.png" alt="Avatar" style={{ width: '300px', height: '300px' }} />
+            </div>
+            <div className="flip-card-back">
+              <h1>John Doe</h1>
+              <p>Architect & Engineer</p>
+              <p>We love that guy</p>
+            </div>
+          </div>
+        </div>
+      </Stack>
     </div>
   );
 }

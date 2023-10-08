@@ -1,6 +1,5 @@
 import './NavBar.css';
 import { Link } from 'react-scroll';
-import MLH from '../../assets/Logos/mlhbadge.svg';
 import BannerLogo from '../../assets/Logos/proptimize-small.png';
 function Navbar() {
   return (
