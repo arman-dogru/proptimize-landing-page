@@ -24,8 +24,10 @@
 .featuresHeader {
   font-family: Coolvetica;
   margin-bottom: 2%;
-  font-size: 3em;
-  font-weight: normal;
+  font-size: 3.5em; /* Increased font size */
+  font-weight: bold; /* Made it bolder */
+  text-align: center; /* Centered the text */
+  width: 100%; /* Ensure it takes the full width */
 }
 
 .questionContainer {
@@ -34,16 +36,16 @@
 }
 
 .questionContainer:hover {
-  background-color: "#eaeaea";
+  background-color: #eaeaea; /* Corrected the color value */
 }
 
 .questionContainer:before {
-  display: "none";
+  content: none; /* Changed from "display: none" to "content: none" */
 }
 
 .question {
   color: #5c71ad;
-  font-size: 32;
+  font-size: 32px; /* Added px unit */
   font-family: Rubik;
 }
 
