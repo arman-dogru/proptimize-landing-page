@@ -12,6 +12,12 @@
     font-size: 3em;
 }
 
+.founders-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 @font-face {
   font-family: Rubik;
   src: url(../../assets/fonts/rubik/Rubik-Regular.ttf);
@@ -17,13 +19,13 @@
   margin-left: 10%;
   margin-right: 10%;
   font-weight: bold;
-  font-family: Rubik;
+  font-family: 'Varela Round', sans-serif; 
 }
 
 .faqHeader {
-  font-family: Coolvetica;
+  font-family: 'Varela Round', sans-serif; 
   margin-bottom: 2%;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: normal;
 }
 
@@ -33,21 +35,21 @@
 }
 
 .questionContainer:hover {
-  background-color: "#eaeaea";
+  background-color: #eaeaea;
 }
 
 .questionContainer:before {
-  display: "none";
+  content: none;
 }
 
 .question {
   color: #5c71ad;
-  font-size: 32;
-  font-family: Rubik;
+  font-size: 24px;
+  font-family: 'Varela Round', sans-serif; 
 }
 
 .answer {
   color: black;
   font-size: 16px;
-  font-family: Rubik;
+  font-family: 'Varela Round', sans-serif; 
 }
