@@ -18,8 +18,16 @@
 	width: calc(10 * clamp(1rem, 4vmin, 10rem));
 }
 
+.HeroVideo {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
 h3 {
-	color: #eeba2b;
+	color: black;
 	font-family: Coolvetica;
 	font-size: clamp(1rem, 2.5vmin, 5rem);
 	font-weight: 500;

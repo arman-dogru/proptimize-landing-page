@@ -2,17 +2,15 @@
   visibility: hidden;
 }
 
-.Gradient{
-  background: linear-gradient(0deg, rgba(238,186,43, 0) 15%, rgba(238,186,43, 0.7723) 48.85%,rgba(238,186,43, 0.7373) 48.86%, #20233d 69.96%, #0f143c 80.96% ,#0f143c 81.77%, #0f143c 100%);
-  background-repeat: no-repeat;
-  z-index: 1;
+.bg{
+  background-color: white;
 }
 
 hr {
   width: 75%;
   margin: auto;
-  background: gainsboro;
-  color: gainsboro;
+  background: #0f143c;
+  color: #0f143c;
   border: none;
   height: 1px;
 }

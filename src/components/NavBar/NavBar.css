@@ -4,32 +4,29 @@
 }
 
 .Navbar{
-    height: calc(140px - 12vw);
+    height: 100%;
     width: 100%;
-}
-
-.mlh{
-    float: right;
-    width: 100px;
-    height: 100px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
-    position: absolute;
-    left: 15px;
-    top: 15px;
+    position: relative;
+    margin-right: 50%;
     max-width: 125px;
 }
 
 .Item{
     float: right;
-    margin-right: 40px;
-    margin-top: 40px;
+    margin-right: 50px;
     cursor: pointer;
 }
 
 .Item a{
-    color: #eeba2b;
+    color: #0f143c;
     font-weight: bolder;
     font-size: 16px;
     text-decoration: none;
@@ -38,7 +35,7 @@
 }
 
 .Item a::after{
-    background: #3B4779;
+    background: #0f143c;
     content: "";
     position: absolute;
     bottom: -2px;

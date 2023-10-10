@@ -15,18 +15,17 @@ function App() {
     <div>
       <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
       <div className="page-wrap">
-        <div class="Gradient">
-          <NavBar />
+          <NavBar sticky="top"/>
+          <div className="bg">
           <Hero />
           <About />
           <SponsorShowcase />
           <Schedule />
           <FAQ />
           <Collaborators />
-          
-        </div>
         <hr></hr>
         <Footer />
+        </div>
       </div>
     </div>
   );

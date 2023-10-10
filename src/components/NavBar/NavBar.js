@@ -1,6 +1,6 @@
 import './NavBar.css';
 import { Link } from 'react-scroll';
-import BannerLogo from '../../assets/Logos/proptimize-small.png';
+import BannerLogo from '../../assets/Logos/White_trimmed.png';
 function Navbar() {
   return (
     <div className="Navbar">
