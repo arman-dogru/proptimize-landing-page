@@ -25,6 +25,9 @@ function Footer() {
             <a href="https://www.linkedin.com/company/proptimize-inc/" target="_blank">
               <box-icon color='#ffffff' animation='tada-hover' name='linkedin' type='logo' ></box-icon>
             </a>
+            <a href="mailto:info@proptimize.co" target="_blank">
+              <box-icon color='#ffffff' animation='tada-hover' name='envelope' type='logo' ></box-icon>
+            </a>
           </div>
           <div className='FooterLinks'>
             <a href={MLH_code_of_conduct} target="_blank">Code Of Conduct</a>
@@ -32,7 +35,6 @@ function Footer() {
             {/* <a href={MLH_code_of_conduct}>Hack the Hill Constitution</a> */}
           </div>
         </div>
-        
       </div>
     </div>
   );

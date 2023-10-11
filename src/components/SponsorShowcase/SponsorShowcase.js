@@ -60,11 +60,11 @@ export default function SponsorShowcase() {
   };
 
   return (
-    <div className={styles.featuresContainer}>
-    <div id="FAQ" className={styles.featuresHeader}>Features</div>
+    <div className="featuresContainer">
+    <div id="FAQ" className="featuresHeader">Features</div>
     {quesAns.map((i) => (
       <Accordion
-        className={styles.questionContainer}
+        className="questionContainer"
         sx={{
           backgroundColor: expandedList.includes(i.key) ? "transparent" : "transparent",
           justifyContent: "left",
@@ -72,9 +72,8 @@ export default function SponsorShowcase() {
           mt: "10px",
           boxShadow: "none",
           borderRadius: "10px",
-          padding: "0 2%",  /* This adds the padding on left and right */
           "&:hover": {
-            backgroundColor: "#eaeaea",
+            backgroundColor: "#ffffff",
           },
           "&:before": {
             display: "none",
@@ -83,7 +82,7 @@ export default function SponsorShowcase() {
       >
           <AccordionSummary
             expandIcon={<box-icon name="chevron-down"></box-icon>}
-            className={styles.question}
+            className="question"
             onClick={(event) => handleKeyList(event, i)}
             sx={{
               color: "#3B4779",
@@ -92,11 +91,9 @@ export default function SponsorShowcase() {
             {i.q}
           </AccordionSummary>
           <AccordionDetails
-            className={styles.answer}
+            className="answer"
             sx={{
               color: "#5C71AD",
-              backgroundColor: "#eaeaea",
-              pt: 0,
             }}
           >
             <Typography align={"left"}>

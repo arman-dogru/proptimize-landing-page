@@ -2,37 +2,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2% 0;
-  background-color: #f8f8f8; /* light background color */
+  background-color: #ffffff; /* light background color */
 }
 
 .featuresHeader {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 50px;
+  font-weight: 600;
   margin-bottom: 30px;
-  color: #3B4779;
+  color: black;
   text-align: center;
+  font-family: 'Varela Round', sans-serif; 
 }
 
 .questionContainer {
   width: 80%; /* or you can adjust to fit your desired width */
   border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 1px;
+  transition: transform 0.5s, box-shadow 0.4s;
 }
 
 .questionContainer:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px #eaeaea;
 }
 
 .question {
-  font-weight: 600;
+  font-weight: 400;
   padding: 12px 16px;
   font-size: 16px;
-  color: #5C71AD;
+  color: #eaeaea;
   cursor: pointer;
-  transition: background-color 0.3s;
+  font-family: 'Varela Round', sans-serif; 
 }
 
 .question:hover {
@@ -42,9 +42,10 @@
 .answer {
   padding: 10px 16px;
   font-size: 14px;
-  color: #333;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #ffffff;
   border-top: 1px solid #e0e0e0;
+  font-family: 'Varela Round', sans-serif; 
 }
 
 /* For the box-icon */
