@@ -15,24 +15,20 @@ class About extends Component {
         <Stack direction = {{xs: "column", md: "row"}} spacing={10}>
           <div class="about-body">
             <p>
-            At Proptimize, we're redefining the way you experience real estate. Our innovative proptech solutions empower investors, developers, and industry professionals to make smarter, more informed decisions. Proptimize helps you elevate your business to globally by providing AI-powered services, such as your own personal advisor/assistant a real-time search engine, name of AI, market reports, listing AI, area demographics, client recommendation,  property ratings, future and current price predictions and a platform to market your business globally with other professionals of the industry to unlock your maximum potential.
-            <br></br>
-            <br></br>
-            What We Offer:
-            <br></br>
-            Global Connections: Real estate agents, developers, and multi-property investors can seamlessly interact and forge beneficial relationships.
-            <br></br>
-            Insightful Services: Gain access to comprehensive market reports, future property valuations, AI-driven listing assistance, client recommendations, detailed area demographics, and intel on potential governmental developments.
-            <br></br>
-            Empowering Business Growth: Agents and builders can expand their global reach, leverage our platform to access essential reports, and collaborate with industry professionals worldwide.
-            <br></br>
-            Investment Opportunities: Investors can explore global listings, discover off-market and pre-construction deals, and make informed decisions based on their budget and investment strategy.
-            <br></br>
-            <br></br>
-            Our Vision:
-            <br></br>
-            Aspiring to lead the global stage, Proptimize is committed to evolving as the most dominant private networking system in the real estate sector. Our focus? Gathering and harnessing real estate data from every corner of the world.
-            </p>
+              At Proptimize, we provide a comprehensive gateway to the future of real estate and your AI-powered companion.
+              <br></br>
+              <br></br>
+              In the vast and diverse world of property transactions and investments, every decision counts. At Proptimize, we've married the transformative power of cutting-edge AI technology with an expansive global network to bring something fresh to the table. This isn't just a platform; it's a revolution, meticulously crafted to elevate every facet of the real estate industry.
+              <br></br>
+              <br></br>
+              At Proptimize, delve into a world of properties with unmatched precision. Armed with real-time data, future valuations, and forward-thinking insights, you're set to invest with utmost confidence. Discover hidden gems in off-market and pre-construction deals, grasp area demographics effortlessly, and join forces with a global network of visionaries.
+              Extend your influence beyond borders. Connect and collaborate with industry forerunners, tap into a vast reservoir of market reports, and secure your spot at the vanguard of your field.
+              Navigate your property journey with clarity. Whether you're buying, selling, or renting, Proptimize provides a seamless experience, enriched with AI-powered insights, property ratings, and a real-time search engine to ensure you find the perfect match.
+              <br></br>
+              <br></br>
+              We believe that real estate is more than bricks and mortar; it's about transformation, growth, and dreams realized. In a market brimming with opportunities, Proptimize pledges to equip every stakeholder, from the seasoned investor to the first-time renter, with tools and insights designed for success.
+              Embark on a journey where tradition meets innovation, where every user is empowered, and where you're not just part of the industry's tapestry; you're weaving its future. With Proptimize, lead the evolution of real estate and change the way you look at Real Estate.
+              </p>
           </div>
           <div class="mascot1">
             <img class="mascot1" src={City3}></img>
