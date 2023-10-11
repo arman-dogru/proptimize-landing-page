@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import { Grid, Stack, Box } from "@mui/material";
 import "./About.css";
 import Mascot from '../../assets/Images/cityscrape1.jpg';
-import Mascot2 from '../../assets/Images/cityscrape2.jpg';
+import City1 from '../../assets/Images/city1.jpg';
+import City2 from '../../assets/Images/city2.jpg';
+import City3 from '../../assets/Images/city3.jpg';
+import City4 from '../../assets/Images/city4.jpg';
 
 class About extends Component {
   render() {
@@ -32,7 +35,8 @@ class About extends Component {
             </p>
           </div>
           <div class="mascot1">
-            <img class="mascot1" src={Mascot}></img>
+            <img class="mascot1" src={City3}></img>
+            <img class="mascot1" src={City4}></img>
           </div>
       </Stack>
     </div>

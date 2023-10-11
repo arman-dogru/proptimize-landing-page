@@ -9,6 +9,8 @@
   
   .FooterBody {
     display: grid;
+    background-color: #0f143c;
+    color: white;
     
   }
   
@@ -28,9 +30,8 @@
   .LogoText {
     display: block;
     margin:auto;
-    font-size: 12px;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-family: Coolvetica;
     font-weight: normal;
     letter-spacing: 0.05em;
@@ -38,10 +39,9 @@
 
   .FooterContainer{
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 
@@ -64,7 +64,7 @@
   .FooterLinks a {
     padding: 15px;
     text-decoration: none;
-    color:black;
+    color:white;
     font-size: 10px;
   }
   

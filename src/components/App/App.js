@@ -15,7 +15,7 @@ function App() {
     <div>
       <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
       <div className="page-wrap">
-          <NavBar sticky="top"/>
+          <NavBar />
           <div className="bg">
           <Hero />
           <About />
