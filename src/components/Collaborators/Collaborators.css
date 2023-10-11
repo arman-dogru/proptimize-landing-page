@@ -9,14 +9,14 @@
 .Button {
     display: inline-block;
     text-align: center;
-    color: #ffffff;
+    color: #050A30;
     padding: 12px 24px;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
     transition: transform 0.3s;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: #EEBA2B;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -25,35 +25,37 @@
 }
 
 .Button:hover {
-    background-color: #0056b3;
+    background-color: #050A30;
     transform: scale(1.05); /* Slight zoom on hover */
 }
 
 
 
 .Button:active {
-    background-color: #45a049;
+    background-color: #050A30;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
 }
 
 .luxuryButton {
     font-weight: bold;
-    background-color: #0f143c;  /* Change this to any color you want */
-    border: 2px solid #0f143c;
+    background-color: #EEBA2B;  /* Change this to any color you want */
+    border: 2px solid #050A30;
 }
 
 .luxuryButton:hover {
-    background-color: #0f143c;
-    color: white;
+    background-color: #EEBA2B;
+    color: rgb(255, 255, 255);
 }
 
 .infoBox {
     background-color: #f7f7f7;  /* Light gray background */
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 10px;  /* Spacing between the infoBox and button */
-    border: 1px solid #e0e0e0;  /* Light gray border */
-    border-radius: 5px;
+    border: 3px solid #e0e0e0;  /* Light gray border */
+    border-radius: 15px;
     width: fit-content;  /* Makes the box fit the content */
     text-align: center;
+    font-size: 20px;
+    
 }
