@@ -1,120 +1,59 @@
-@font-face {
-    font-family: Rubik;
-    src: url(../../assets/fonts/rubik/Rubik-Regular.ttf);
-}
-
-@font-face {
-    font-family: Coolvetica;
-    src: url(../../assets/fonts/coolvetica/coolvetica\ rg.otf);
-}
-
-.Collaborators h1{
-    font-family: Coolvetica;
-    margin-bottom:10%;
-    font-size: 3em;
-    margin-left: 10%;
-    font-weight: normal;
-}
-  
-.Associations {
-    position: relative;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-/* .IEEEBox,.SESABox, .CSSABox, .WIEBox, .ESSBox{
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
+.container {
     display: flex;
-    padding: 0.8rem;
-} 
-.ESS{
-    position: relative;
-    top: -28px;
-    max-height:130px;
-    display: block;
-}
-.WIE{
-    position: relative;
-    max-height:100px;
-    display: block;
-    margin-left: -70px;
-} */
-/* .IEEE{
-    height:70px;
-    display: block;
-    margin-right: 45px;
-}
-.SESA{
-    display: block;
-    
-} */
-
-.Collaborators{
-    color: #242a42;
-    left: 10px;
-    text-align: left;
-    margin-top: 0%;
-    margin-bottom: 6%;
+    flex-direction: column;  /* This will stack children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
 }
 
-@media only screen and (max-width: 2560px) {
-    h2{
-        margin-right: 1375px;
-    }
-  }
+.Button {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
   
-  @media only screen and (max-width: 1440px) {
-    .Associations {
-      margin-top: 0px;
-    }
-    h2{
-        margin-right: 1275px;
-    }
-  }
-  
-  @media only screen and (max-width: 1280px) {
-    .Associations {
-      width: 75%;
-    }
-    h2{
-        margin-right: 975px;
-    }
-  }
-  .mountain {
-    width: 100%;
-    height: 10%;
+
+}
+
+.Button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
 
-/* Small screens */
-@media only screen {
 
+.Button:active {
+    background-color: #45a049;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
 
-} /* Define mobile styles */
+.luxuryButton {
+    font-weight: bold;
+    background-color: #0f143c;  /* Change this to any color you want */
+    border: 2px solid #0f143c;
+}
 
-/* Medium screens */
-@media only screen and (max-width: 1024px) { 
-/*     .ESS{
-        margin-top: 8px;
-    }
-    .WIE{
-        margin-top: 10px;
-    }
-    .IEEE{
-        margin-top: 45px;
-        margin-right: 24px;
-    }
-    .SESA{
-        margin-top: -75px;
-    } */
+.luxuryButton:hover {
+    background-color: #0f143c;
+    color: white;
+}
 
-} /* min-width 641px */
-
-@media only screen and (max-width: 1178px) { 
-
-} 
+.infoBox {
+    background-color: #f7f7f7;  /* Light gray background */
+    padding: 10px;
+    margin-bottom: 10px;  /* Spacing between the infoBox and button */
+    border: 1px solid #e0e0e0;  /* Light gray border */
+    border-radius: 5px;
+    width: fit-content;  /* Makes the box fit the content */
+    text-align: center;
+}

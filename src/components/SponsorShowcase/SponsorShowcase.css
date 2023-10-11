@@ -1,56 +1,60 @@
-@font-face {
-  font-family: Rubik;
-  src: url(../../assets/fonts/rubik/Rubik-Regular.ttf);
-}
-
-@font-face {
-  font-family: Coolvetica;
-  src: url(../../assets/fonts/coolvetica/coolvetica\ rg.otf);
-}
-
 .featuresContainer {
   display: flex;
   flex-direction: column;
-  color: black;
-  transition: 0.5s;
-  margin-bottom: 10vw;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-weight: bold;
-  font-family: Rubik;
-  align-items: center; 
+  align-items: center;
+  padding: 2% 0;
+  background-color: #f8f8f8; /* light background color */
 }
 
 .featuresHeader {
-  font-family: Coolvetica;
-  margin-bottom: 2%;
-  font-size: 3.5em; /* Increased font size */
-  font-weight: bold; /* Made it bolder */
-  text-align: center; /* Centered the text */
-  width: 100%; /* Ensure it takes the full width */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #3B4779;
+  text-align: center;
 }
 
 .questionContainer {
-  display: flex;
-  flex-direction: column;
+  width: 80%; /* or you can adjust to fit your desired width */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .questionContainer:hover {
-  background-color: #eaeaea; /* Corrected the color value */
-}
-
-.questionContainer:before {
-  content: none; /* Changed from "display: none" to "content: none" */
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .question {
-  color: #5c71ad;
-  font-size: 32px; /* Added px unit */
-  font-family: Rubik;
+  font-weight: 600;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: #5C71AD;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.question:hover {
+  background-color: #f2f2f2;
 }
 
 .answer {
-  color: black;
-  font-size: 16px;
-  font-family: Rubik;
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* For the box-icon */
+[box-icon] {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+/* Rotation for expanded state */
+.featuresContainer .expanded > [box-icon] {
+  transform: rotate(180deg);
 }
