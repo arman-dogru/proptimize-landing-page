@@ -31,7 +31,6 @@
     -moz-transition: transform 0.3s; /* Firefox */
     -ms-transition: transform 0.3s; /* Internet Explorer 9 */
     -o-transition: transform 0.3s; /* Opera */
-    margin-bottom: 30px;
 }
 
 .Button:hover {
@@ -67,7 +66,7 @@
 .infoBox {
     background-color: #f7f7f7;
     padding: 30px;
-    margin-top: -10px;
+    margin-bottom: 10px;
     border: 3px solid #e0e0e0;
     border-radius: 15px;
     width: fit-content;
