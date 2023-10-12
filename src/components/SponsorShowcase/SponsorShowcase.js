@@ -13,39 +13,54 @@ export default function SponsorShowcase() {
 
   const quesAns = [
     {
-      q: "Property Listings & Insights",
-      a: "• User-friendly interface for property listings. \n • AI-powered price predictions and property grading. \n • Comprehensive property pages with essential details.",
+      q: "AI Insight Engine",
+      a: "Harnessing advanced algorithms for pinpoint market predictions and property insights.",
       key: "0",
     },
     {
-      q: "Advanced Search & Market Insights",
-      a: "• Robust search functionality.\n • AI-driven market reports and trends. \n• Insights from historical and current property listings.",
+      q: "Global Nexus",
+      a: "Dive into a vast international network of real estate professionals and collaborators.",
       key: "1",
     },
     {
-      q: "Client Relationship Management (CRM)",
-      a: "• Contact, lead, and deal management tools. \n • Task & calendar integrations.\n• Communication tools and client portals.",
+      q: "Precision Search",
+      a: "Our specialized real estate search engine streamlines property discovery.",
       key: "2",
     },
     {
-      q: "Marketing & Automation",
-      a: "• Analytics & reporting dashboards.\n • Notifications, automated responses, and event calendars.\n• Marketing automation with email campaigns and templates.",
+      q: "Dynamic Listings",
+      a: "AI-enhanced property listings that stand out and captivate audiences.",
       key: "3",
     },
     {
-      q: "Collaboration & Networking",
-      a: "• Networking portal with forums, blogs, and group discussions.\n • Resource library and market insights dashboard.\n• Collaborative tools for agents and prop-tech entities.",
+      q: "Tailored Recommendations",
+      a: "Personalized client and area suggestions crafted for your unique needs.",
       key: "4",
     },
     {
-      q: "AI-Powered Assistance",
-      a: "• AI-assisted listing tool for realtors.\n • Marketing analytics and property value improvement tools.",
+      q: "Deep Dive Demographics",
+      a: "Detailed, at-a-glance area analyses for informed decision-making.",
       key: "5",
     },
     {
-      q: "Investor-specific Tools",
-      a: "• Property access tools and demographic data.\n • Local agent connections and financial information.\n• Market reports and special deals for multi-property investors.",
+      q: "Future Forecasting",
+      a: "Stay ahead with predictive market trends and property valuations.",
       key: "6",
+    },
+    {
+      q: "Collaborative Platforms",
+      a: "Forge, nurture, and leverage strategic partnerships with industry frontrunners.",
+      key: "7",
+    },
+    {
+      q: "Control your business",
+      a: "With Proptimize's all-in-one CRM, industry professionals can effortlessly manage contacts, generate leads, streamline deals, automate marketing magic, and tap into powerful analytics. A symphony of tools tailored for the real estate maestro.",
+      key: "8",
+    },
+    {
+      q: "Cutting-Edge Interface",
+      a: "A user-friendly, sleek design optimized for the ultimate real estate experience.",
+      key: "9",
     }
 
     
