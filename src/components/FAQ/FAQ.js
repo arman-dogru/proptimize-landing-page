@@ -23,7 +23,7 @@ export default function FAQ() {
       key: "1",
     },
     {
-      q: "Where are operating?",
+      q: "Where are we operating?",
       a: "We are training our AI to operate in North America, however, good news! We are also increasing our reach to Asia, Europe and South America.",
       key: "2",
     },
